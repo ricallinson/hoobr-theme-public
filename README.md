@@ -1,4 +1,3 @@
-hoobr-public-theme
-==================
+# Hoobr-public-theme
 
 Default theme for a Hoobr public site.
