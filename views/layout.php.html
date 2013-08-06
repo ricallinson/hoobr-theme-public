@@ -18,14 +18,17 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="jumbotron"><?php echo $main;?></div>
+			<?php if ($splash) {?>
+			<?php echo $splash;?>
+			<?php }?>
+			<?php echo $main;?>
 		</div>
 		<div class="container">
-            <?php echo $footer;?>
-        </div>
-        <div class="text-center">
-            <small>Page created in <?php echo round($end, 3);?> seconds</small>
-        </div>
-        <?php echo $assetsBottom;?>
+			<?php echo $footer;?>
+		</div>
+		<div class="text-center">
+			<small>Page created in <?php echo round($end, 3);?> seconds</small>
+		</div>
+		<?php echo $assetsBottom;?>
 	</body>
 </html>
