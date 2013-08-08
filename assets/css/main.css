@@ -2,6 +2,24 @@ body {
     position: relative;
 }
 
+@media (min-width: 720px) {
+    body {
+        background: url("../images/alice-bg.jpg") no-repeat 0% 95%;
+    }
+}
+
 .main {
     margin: 0 1em 1em 1em;
+}
+
+.jumbotron {
+    background-image: url("../images/alice-jumbo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.panel {
+    background-image: url("../images/alice-sidebar.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
